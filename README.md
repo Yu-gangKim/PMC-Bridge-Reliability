@@ -8,7 +8,7 @@ This repository contains the Excel files accompanying the paper:
 - **K1** : Total load effect (0.000–1.000, step 0.001)
 - **V0** : COV of resistance (0.05–0.25, step 0.01)
 - **V1** : COV of total load (0.05–0.25, step 0.01)
-- **Example**: `652,13,05` → β = 3.1748
+- **Example**: K₁=0.652, V₀=0.13, V₁=0.05 →`652,13,05` → β = 3.0459
 
 ## Highway Bridges (`PMC_Highway_bridge_Reliability_Table_5e4x10.xlsx`)
 - **SearchKey format**: `K1,K2,V0,V1,V2`
@@ -17,7 +17,7 @@ This repository contains the Excel files accompanying the paper:
 - **V0** : COV of resistance (0.05–0.25, step 0.01)
 - **V1** : COV of dead load (0.05–0.15, step 0.05)
 - **V2** : COV of vehicle load (0.05–0.30, step 0.05)
-- **Example**: `02,20,05,05,05` → β = 4.1075
+- **Example**: K₁=0.02, K₂=0.20, V₀=0.05, V₁=0.05, V₂=0.05 → `02,20,05,05,05` → β = 4.1075
 
 ## How to Use
 1. Download the Excel file for your bridge type.
